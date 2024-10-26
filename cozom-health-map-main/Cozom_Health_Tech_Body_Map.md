@@ -1,0 +1,1 @@
+"COZOM AI-powered health tech platform identifies symptoms and refers patients to specialists. Users can input symptoms via text/voice in multiple languages. Features include an interactive Body Map for pinpointing pain areas, aiding in accurate diagnosis. Book doctor appointments seamlessly."
