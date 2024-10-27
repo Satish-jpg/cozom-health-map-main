@@ -1,16 +1,14 @@
-import sys
 import os
+import sys
 
-from WebMD.reader import readDatabase
-
-# Check if the server environment is set
 if os.environ.get('SERVER_ENV') is None:
-    from PyQt5.QtWidgets import QApplication
+    # Local Development
+    from PyQt5.QtWidgets import QApplication, QMainWindow
     from GUI.About import About
+    from data import readDatabase
     from GUI.Diagnose import Diagnose
 
-    # Local Development
-    if __name__ == '__main__':
+    if __name__ == "__main__":
         database = readDatabase('./data')
         app = QApplication(sys.argv)
         diagnose = Diagnose(database)
