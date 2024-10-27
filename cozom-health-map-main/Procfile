@@ -1,2 +1,2 @@
-web: python __main__.py
+web: python DiseaseDatabase-master/__main__.py
 
