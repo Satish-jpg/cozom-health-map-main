@@ -1,4 +1,7 @@
 absl-py==2.1.0
+...
+PyQt5==5.15.4
+
 astunparse==1.6.3
 blinker==1.8.2
 certifi==2024.8.30
@@ -50,5 +53,4 @@ urllib3==2.2.3
 Werkzeug==3.0.4
 wrapt==1.16.0
 zipp==3.20.2
-PyQt5==5.15.4
 
